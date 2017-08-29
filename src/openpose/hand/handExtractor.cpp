@@ -91,7 +91,7 @@ namespace op
             return Rectangle<float>{};
         }
     }
-
+    //input=output=368x368
     HandExtractor::HandExtractor(const Point<int>& netInputSize, const Point<int>& netOutputSize,
                                  const std::string& modelFolder, const int gpuId, const unsigned short numberScales,
                                  const float rangeScales) :

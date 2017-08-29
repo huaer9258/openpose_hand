@@ -39,6 +39,10 @@ namespace op
     const auto HAND_CCN_DECREASE_FACTOR = 8.f;
     const std::string HAND_PROTOTXT{"hand/pose_deploy.prototxt"};
     const std::string HAND_TRAINED_MODEL{"hand/pose_iter_102000.caffemodel"};
+   //hand detect model
+    const std::string HAND_DETECT_PROTOTXT{"hand/hand_deploy.prototxt"};
+    const std::string HAND_DETECT_TRAINED_MODEL{"hand/VGG_Hand_SSD_300x300_iter_25000.caffemodel"};
+
 
     // Rendering parameters
     const auto HAND_DEFAULT_ALPHA_KEYPOINT = POSE_DEFAULT_ALPHA_KEYPOINT;
